@@ -85,7 +85,7 @@ def insertionSort(arr, lo, hi):
             arr[j], arr[j-1] = arr[j-1], arr[j]
             j -= 1
 
-for x in range(1,6):
+for x in range(1,5):
     fileout = open(f"2.introsort{x}.out", "w")
     for y in range(1,21):
         s=0

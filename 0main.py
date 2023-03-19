@@ -1,6 +1,6 @@
 import random
 
-for x in range(1,6):
+for x in range(1,5):
     for y in range(1,21):
         file=open(f"z.lista{x}.{y}.in", "w")
 

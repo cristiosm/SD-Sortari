@@ -14,7 +14,7 @@ def shellsort(arr):
             arr[j] = temp
         gap //= 2
 
-for x in range(1,6):
+for x in range(1,5):
     fileout = open(f"2.shellsort{x}.out", "w")
     for y in range(1,21):
         s=0

@@ -25,7 +25,7 @@ def mergesort(arr):
     return merge(left, right)
 
 
-for x in range(1,6):
+for x in range(1,5):
     fileout = open(f"2.mergesort{x}.out", "w")
     for y in range(1,21):
         s=0

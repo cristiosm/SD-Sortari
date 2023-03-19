@@ -23,7 +23,7 @@ def radixsort(nums):
 
     return nums
 
-for x in range(1,6):
+for x in range(1,5):
     fileout = open(f"2.radixsort{x}.out", "w")
     for y in range(1,21):
         s=0
